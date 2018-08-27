@@ -1,0 +1,19 @@
+#filter__button__all__category {
+    background: white;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 120%;
+}
+
+#filter__button__sale__category {
+    background: white;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 120%;
+}

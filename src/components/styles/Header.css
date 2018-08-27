@@ -1,0 +1,52 @@
+.header {
+    background-color: #222222;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+}
+
+.header li {
+    display: inline;
+}
+
+/* .header li:hover {
+    background: #FFC107;;
+} */
+
+#white {
+    color: white;
+}
+
+.menu a {
+    color: #2196F3;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu a:hover, #white:hover {
+    color: #FFC107;
+}
+
+.shopping {
+    background-color: #FFC107;
+    display: inline;
+    margin-left: 1%;
+    justify-content: center;
+    padding: 24.5px;
+    font-size: 150%;
+}
+
+hr {
+    height: 20px;
+}

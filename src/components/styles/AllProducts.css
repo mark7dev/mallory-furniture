@@ -1,0 +1,38 @@
+.filter__buttons__container, .number__items__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.number__items__container a {
+    font-size: 50px;
+    color: #FFC107;
+    font-weight: bolder;
+    margin: 1%;
+}
+
+.number__items__container h3 {
+    color: #999999;
+}
+
+.filter__button__all {
+    background: white;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 120%;
+}
+
+.filter__button__sale {
+    background: white;
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 120%;
+}
