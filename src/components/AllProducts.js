@@ -3,7 +3,7 @@ import request from 'superagent';
 
 import './styles/AllProducts.css';
 
-import { Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class AllProducts extends Component {
 
@@ -86,7 +86,7 @@ export default class AllProducts extends Component {
                         <div className='product__container'>
                             <Link to={`product/${ product._id}`}>
                                 <div className='product__image__container'>
-                                    <img className='product__image' src={ product.imageLink }></img>
+                                    <img className='product__image' src={ product.imageLink } alt=''></img>
                                 </div>
                                 <div className='product__info__container'>
                                     <p className='product__description'> { product.item } </p>

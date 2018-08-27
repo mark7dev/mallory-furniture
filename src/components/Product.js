@@ -43,7 +43,7 @@ export default class Product extends Component {
       <div className='product__id__container'>
 
         <div className='product__id__image__container'>
-          <img className='product__id__image' src={ this.state.img }/>
+          <img className='product__id__image' src={ this.state.img } alt=''/>
         </div>
         
         <div className='product__id__card__container'>

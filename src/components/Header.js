@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import mfLogoWhite from '../images/mf-logo-white.svg'
-import { Switch, Route, Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './styles/Header.css';
 
 export default class Header extends Component {
@@ -9,7 +9,7 @@ export default class Header extends Component {
       <div className='header'>
         <nav>  
             <ul className='menu'>
-                <li><Link id='white' to='/'><img src={ mfLogoWhite }></img></Link></li>
+                <li><Link id='white' to='/'><img src={ mfLogoWhite } alt=''></img></Link></li>
                 <li><Link id='white' to='/about'>About</Link></li>
                 <li><Link id='white' to='/terms'>Terms + Conditions</Link></li>
             </ul>

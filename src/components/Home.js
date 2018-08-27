@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import lanImage from '../images/landing-splash-bg.png'
-import { Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import request from 'superagent';
 
@@ -50,7 +50,7 @@ export default class Home extends Component {
     return ( 
       <div className='home__container'>
         <div className='image__container'>
-            <img src={ lanImage }></img>
+            <img src={ lanImage } alt=''></img>
             <div className='image__text'>
                 <h1>Mallory Furniture</h1>
                 <h3>Your furniture is old.</h3>
@@ -74,7 +74,7 @@ export default class Home extends Component {
                         <div className='product__container'>
                             <Link to={`product/${ product._id}`}>
                                 <div className='product__image__container'>
-                                    <img className='product__image' src={ product.imageLink }></img>
+                                    <img className='product__image' src={ product.imageLink } alt=''></img>
                                 </div>
                                 <div className='product__info__container'>
                                     <p className='product__description'> { product.item } </p>
@@ -86,9 +86,7 @@ export default class Home extends Component {
 
                 }
 
-            }) 
-
-            }
+            })}
 
         </div>
         <br></br>

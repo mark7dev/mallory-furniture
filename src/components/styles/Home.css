@@ -85,13 +85,13 @@ h1 {
     flex-wrap: wrap;
     width: 100%;
     /* outline: 1px solid blue; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
 }
 
 .product__container {
     border: 1px solid #999999;
     box-shadow: 4px 4px #999999;
-    /* outline: 1px solid #999999; */
     /* display: inline; */
     width: 30%;
     margin: 1%;
@@ -101,7 +101,6 @@ h1 {
 
 .product__info__container {
     margin-left: 5%;
-
 }
 
 .product__image__container img {
@@ -118,13 +117,3 @@ a {
     text-decoration: none;
     color: black;
 }
-/* .product__info__container p {
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
-} */
-
-
-/* .buttons a {
-    outline: 1px solid red;
-} */

@@ -17,3 +17,34 @@
     margin: 5px;
     font-size: 120%;
 }
+
+#bedroom {
+    background-image: url(../../images/category-bedroom.png);
+}
+
+#desks {
+    background-image: url(../../images/category-desks.png);
+}
+
+#miscellaneous {
+    background-image: url(../../images/category-miscellaneous.png);
+}
+
+#seating {
+    background-image: url(../../images/category-seating.png);
+}
+
+#storage {
+    background-image: url(../../images/category-storage.png);
+}
+
+#tables {
+    background-image: url(../../images/category-tables.png);
+}
+
+.image__category__container {
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
